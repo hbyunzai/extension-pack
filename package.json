@@ -1,0 +1,31 @@
+{
+  "name": "ng-yunzai-extension-pack",
+  "displayName": "NG-YUNZAI Extension Pack",
+  "description": "Visual Studio Code extensions for Ng-yunzai Development",
+  "version": "12.0.0",
+  "icon": "ng-yunzai.png",
+  "publisher": "yunzai-bot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hbyunzai/extension-pack.git"
+  },
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "scripts": {
+    "release": "vsce package"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "angular.ng-template",
+    "dbaeumer.vscode-eslint",
+    "cipchk.ng-zorro-vscode",
+    "yunzai-bot.ng-yunzai-vscode",
+    "cyrilletuzi.angular-schematics",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "Gruntfuggly.todo-tree"
+  ]
+}
